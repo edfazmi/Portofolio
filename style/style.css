@@ -53,13 +53,13 @@
     position: relative;
   }
   
-  .keahlian-track {
+.keahlian-track {
     display: flex;
-    width: calc(250px * 12);
+    width: calc(250px * 12); 
     animation: slide 30s linear infinite;
-  }
-  
-  .keahlian-item {
+}
+
+.keahlian-item {
     width: 250px;
     flex-shrink: 0;
     display: flex;
@@ -68,7 +68,7 @@
     padding: 10px;
   }
   
-  .keahlian-item img {
+ .keahlian-item img {
     width: 100px;
     height: auto;
     object-fit: contain;
@@ -83,7 +83,7 @@
     transition: transform 0.3s ease;
   }
 
-  .keahlian-item-sql img {
+ .keahlian-item-sql img {
     margin-top: 10px;
     width: 150px;
     height: auto;
@@ -91,7 +91,7 @@
     transition: transform 0.3s ease;
   }
 
-  .keahlian-item-mkt img {
+ .keahlian-item-mkt img {
     margin-left: 50px;
     margin-top: 60px;
     width: 200px;
@@ -100,7 +100,7 @@
     transition: transform 0.3s ease;
   }
   
-  .keahlian-item img:hover {
+ .keahlian-item img:hover {
     transform: scale(1.2);
   }
 
