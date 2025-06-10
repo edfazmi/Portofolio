@@ -55,7 +55,7 @@
   
   .keahlian-track {
     display: flex;
-    width: calc(250px * 12); /* 12 = jumlah item total */
+    width: calc(250px * 12);
     animation: slide 30s linear infinite;
   }
   
@@ -103,7 +103,19 @@
   .keahlian-item img:hover {
     transform: scale(1.2);
   }
+
+  .keahlian-item-css img:hover {
+    transform: scale(1.2);
+  }
+
+  .keahlian-item-sql img:hover {
+    transform: scale(1.2);
+  }
   
+  .keahlian-item-mkt img:hover {
+    transform: scale(1.2);
+  }
+
   @keyframes slide {
     0% {
       transform: translateX(0);
